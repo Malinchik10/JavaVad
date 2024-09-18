@@ -1,0 +1,12 @@
+Index: src/test.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class test {\r\n}\r\n
+===================================================================
+diff --git a/src/test.java b/src/test.java
+--- a/src/test.java	
++++ b/src/test.java	
+@@ -1,2 +1,3 @@
+ public class test {
++    int age;
+ }
