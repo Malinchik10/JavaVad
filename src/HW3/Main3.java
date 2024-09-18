@@ -1,8 +1,6 @@
-package HW2;
-
+package HW3;
 import java.util.Scanner;
-
-public class Main2 {
+public class Main3 {
     public static void main(String[] args) {
         System.out.print("Введите аргументы ");
         Scanner scan = new Scanner(System.in);
@@ -25,8 +23,12 @@ public class Main2 {
         String z = c!=0 ? "остаток от деления:" + c : "результат от деления:" + a/b;
         System.out.println(z);
 
-
-
-
-    }
+        if (c != 0) {
+            //если не 0, то выводим остаток
+            System.out.println("остаток от деления:" + c);
+        } else {
+            //иначе результат деления - число
+            System.out.println("результат деления: "+a / b);
+        }
+           }
 }
