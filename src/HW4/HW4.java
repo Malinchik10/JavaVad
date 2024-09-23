@@ -7,7 +7,7 @@ public class HW4 {
             if (i % 7 == 0 || i % 3 == 0)
                 System.out.println("Вывести число:" + i);
 
-            int i = 1;
+             i = 1;
             for (i = 1; i <= 100; i++)
                 System.out.println("Вывести число:" + i);
         }

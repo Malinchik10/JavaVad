@@ -1,8 +1,8 @@
 package HW2;
 import java.util.Scanner;
-public class Args {
-    public static void main(String[] args) {
-        int i = 1;
+public class Args {}
+ //   public static void main(String[] args) {}
+    /*    int i = 1;
         for (i = 1; i <= 100; i++) {
             if (i % 7 == 0 || i % 3 == 0)
                 System.out.println("Вывести число:" + i);
@@ -57,13 +57,6 @@ public class Args {
 }
 
 
-*/
-
-
-
-
-
-;
 
 
         String r = a!=0&&a>1 ? "выводить:" + b/a : "результат от сложения:" + (a+b);
@@ -87,9 +80,4 @@ public class Args {
             //иначе результат деления - число
             System.out.println("результат деления: "+a / b);
         }
-
-
-    }
-
-}
- */
+*/
