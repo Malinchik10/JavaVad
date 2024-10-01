@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1aa4a4d-d734-4faa-ba04-e108c5d7a46c" name="Changes" comment="Реализован класс студент">
-      <change beforePath="$PROJECT_DIR$/src/HW6/StudentSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW6/StudentSample.java" afterDir="false" />
+    <list default="true" id="d1aa4a4d-d734-4faa-ba04-e108c5d7a46c" name="Changes" comment="Правки класса студент">
+      <change afterPath="$PROJECT_DIR$/src/HW5/ArraySample_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW5/ArraySample_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8/AnimalsSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW5/Mas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW5/ArraySamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +55,13 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StudentSample">
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW2.Main2" />
+  <component name="RunManager" selected="Application.AnimalsSample">
+    <configuration name="AnimalsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW8.AnimalsSample" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW2.*" />
+          <option name="PATTERN" value="HW8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW3.Main3" />
+    <configuration name="ArraySample_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW5.ArraySample_03" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW3.*" />
+          <option name="PATTERN" value="HW5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,8 +82,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW5.Mas" />
+    <configuration name="ArraySample_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW5.ArraySample_04" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraySamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW5.ArraySamples" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
@@ -101,19 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW2.Task2" />
-      <module name="homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="homework" />
       <method v="2">
@@ -129,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimalsSample" />
+        <item itemvalue="Application.ArraySample_04" />
+        <item itemvalue="Application.ArraySample_03" />
         <item itemvalue="Application.StudentSample" />
-        <item itemvalue="Application.Mas" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.ArraySamples" />
       </list>
     </recent_temporary>
   </component>
@@ -154,11 +161,28 @@
       <option name="project" value="LOCAL" />
       <updated>1727810752134</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Правки класса студент">
+      <option name="closed" value="true" />
+      <created>1727811154503</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727811154503</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Правки класса студент">
+      <option name="closed" value="true" />
+      <created>1727811439201</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727811439201</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Реализован класс студент" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализован класс студент" />
+    <MESSAGE value="Правки класса студент" />
+    <option name="LAST_COMMIT_MESSAGE" value="Правки класса студент" />
   </component>
 </project>

@@ -1,8 +1,6 @@
 package HW5;
 
-import java.util.Arrays;
-
-public class Mas {
+public class ArraySamples {
     public static void main(String[] args) {
 
 /*
@@ -17,8 +15,8 @@ public class Mas {
 */
         int[] numbers = {3, 5, 7, 2, 8, 1, 4, 10, 12};
 
-        int max = numbers[0];
-        int min = numbers[0];
+        int max = 0;
+        int min = 0;
 
         for (int i = 1; i < numbers.length; i++) { //метод, который возвращает кол-во эл-в в массиве
             if (numbers[i] > max) {
