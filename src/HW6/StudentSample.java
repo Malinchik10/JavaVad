@@ -10,5 +10,9 @@ public class StudentSample {
         System.out.println("--------------------------------------------------");
         var lastName = student.getLastName();
         System.out.println(lastName);
+
+        student.setGroup("IT04");
+        var group = student.getGroup();
+        System.out.println(group);
     }
 }
