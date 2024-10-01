@@ -20,7 +20,7 @@ public class Mas {
         int max = numbers[0];
         int min = numbers[0];
 
-        for (int i = 1; i < numbers.length; i++) {
+        for (int i = 1; i < numbers.length; i++) { //метод, который возвращает кол-во эл-в в массиве
             if (numbers[i] > max) {
                 max = numbers[i];
             }

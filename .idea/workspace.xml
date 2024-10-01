@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1aa4a4d-d734-4faa-ba04-e108c5d7a46c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HW5/Mas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW6/StudentSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW2/Args.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Args.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW3/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW4/HW4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW4/HW4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW5/Mas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW5/Mas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW6/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW6/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaVariableFindUsagesOptions.isSearchForAccessors": "true",
+    "JavaVariableFindUsagesOptions.isSearchForTextOccurrences": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "19",
@@ -50,7 +51,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Mas">
+  <component name="RunManager" selected="Application.StudentSample">
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW2.Main2" />
       <module name="homework" />
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW1.Task1" />
+    <configuration name="StudentSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW6.StudentSample" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW1.*" />
+          <option name="PATTERN" value="HW6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentSample" />
         <item itemvalue="Application.Mas" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
