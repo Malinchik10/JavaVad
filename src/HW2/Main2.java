@@ -11,7 +11,7 @@ public class Main2 {
         System.out.println(a);
         System.out.println(b);
 
-        String r = a!=0&&a>1 ? "выводить:" + b/a : "результат от сложения:" + (a+b);
+        String r = a > 1 ? "выводить:" + b/a : "результат от сложения:" + (a+b);
         System.out.println(r);
         String w = a==-1 ? "выводить:" + (a+ b) : "результат от умножения:" + a*b;
         System.out.println(w);

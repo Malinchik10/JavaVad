@@ -1,5 +1,6 @@
 package HW6;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Student {
@@ -83,13 +84,23 @@ public class Student {
     }
     public void information()
     {
-        System.out.println("id: " + this.id);
-        System.out.println("Фамилия : " + this.firstName);
-        System.out.println("Имя: " + this.lastName);
-        System.out.println("Дата рождения: " + this.birthday);
-        System.out.println("Факультет:" + this.faculty);
-        System.out.println("Группа: " + this.course);
-        System.out.println("Группа: " + this.group);
+        String result = String.format(
+                "\tId: %s,\n\tИмя: %s,\n\tФамилия: %s,\n\tДата рождения: %s,\n\tФакультет: %s,\n\tКурс: %d,\n\tГруппа: %s\n",
+                id,
+                firstName,
+                lastName,
+                new SimpleDateFormat("dd/MM/yyyy").format(birthday),
+                faculty,
+                course,
+                group);
+        System.out.println(result);
+//        System.out.println("id: " + this.id);
+//        System.out.println("Фамилия : " + this.firstName);
+//        System.out.println("Имя: " + this.lastName);
+//        System.out.println("Дата рождения: " + this.birthday);
+//        System.out.println("Факультет:" + this.faculty);
+//        System.out.println("Группа: " + this.course);
+//        System.out.println("Группа: " + this.group);
     }
 
 }
