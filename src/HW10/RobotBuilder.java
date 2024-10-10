@@ -1,11 +1,12 @@
 package HW10;
 
-public class RobotCook extends Robot implements IRobot{
+public class RobotBuilder extends Robot implements IEngineerRobot{
 
-
-    public RobotCook(String model, int power, String madeIn, Aggregate aggregate)
+    String material;
+    public RobotBuilder(String model, int power, String madeIn, Aggregate aggregate, String material)
     {
         super(model, power, madeIn, aggregate);
+        this.material = material;
     }
 
     @Override
@@ -36,6 +37,12 @@ public class RobotCook extends Robot implements IRobot{
 
     @Override
     public String uniquePossibility() {
-        return "Готовка";
+        return "Строит";
+    }
+
+    @Override
+    public void solveTask() {
+
     }
 }
+

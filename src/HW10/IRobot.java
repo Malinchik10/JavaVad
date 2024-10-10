@@ -6,4 +6,5 @@ public interface IRobot {
     void exchangeMainAggregate(Aggregate aggregate);
     void on();
     void off();
+    String uniquePossibility ();
 }
