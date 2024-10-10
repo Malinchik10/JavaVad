@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1aa4a4d-d734-4faa-ba04-e108c5d7a46c" name="Changes" comment="Правки класса студент">
-      <change afterPath="$PROJECT_DIR$/src/HW10/IEngineerRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW10/RobotBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW10/ShowRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW11/Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW11/GenericMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW10/IRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW10/IRobot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW10/RobotCook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW10/RobotCook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW10/RobotSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW10/RobotSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW10/RobotSapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW10/RobotSapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +58,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RobotSample">
+  <component name="RunManager" selected="Application.GenericMain">
     <configuration name="AnimalsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW8.AnimalsSample" />
       <module name="homework" />
@@ -77,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySample_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW5.ArraySample_04" />
+    <configuration name="GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW11.GenericMain" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW5.*" />
+          <option name="PATTERN" value="HW11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericMain" />
         <item itemvalue="Application.RobotSample" />
         <item itemvalue="Application.StudentSample" />
         <item itemvalue="Application.AnimalsSample" />
         <item itemvalue="Application.PredatorSample" />
-        <item itemvalue="Application.ArraySample_04" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728122215142</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Правки класса студент">
+      <option name="closed" value="true" />
+      <created>1728592014321</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728592014321</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
