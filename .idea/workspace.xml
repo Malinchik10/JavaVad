@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1aa4a4d-d734-4faa-ba04-e108c5d7a46c" name="Changes" comment="ДЗ Выставка роботов">
-      <change afterPath="$PROJECT_DIR$/src/HW12/Faculty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW12/FacultyStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW12/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW12/MainCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW12/Student.java" afterDir="false" />
+    <list default="true" id="d1aa4a4d-d734-4faa-ba04-e108c5d7a46c" name="Changes" comment="ДЗ Выставка роботов&#10;Факультет">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW10/MainRobots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW10/MainRobots.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW10/ShowRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW10/ShowRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW12/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW12/Faculty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW12/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW12/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW12/MainCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW12/MainCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW12/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW12/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728735489136</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ДЗ Выставка роботов&#10;Факультет">
+      <option name="closed" value="true" />
+      <created>1728744966015</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728744966015</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,7 +241,8 @@
     <MESSAGE value="Правки класса студент" />
     <MESSAGE value="ДЗ" />
     <MESSAGE value="ДЗ Выставка роботов" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ Выставка роботов" />
+    <MESSAGE value="ДЗ Выставка роботов&#10;Факультет" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ Выставка роботов&#10;Факультет" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

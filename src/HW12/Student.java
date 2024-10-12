@@ -58,7 +58,7 @@ public class Student {
     }
 
     public void print() {
-        System.out.println(String.format("\t\tИмя: %s, Фамилия: %s", firstName, lastName));//шаблон %Sподставит
+        System.out.println(String.format("\t\tИмя: %s, Фамилия: %s, ср. балл: %f", firstName, lastName, avgScore));//шаблон %Sподставит
     }
 }
 

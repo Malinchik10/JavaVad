@@ -30,10 +30,12 @@ public class MainCollections {
                 "Физмат"
         );
 
-        faculty.print();
+        /*faculty.print();
         faculty.revokeStudents(4.0);
         faculty.deactivate();
-        faculty.print();
+        faculty.print();*/
+
+        faculty.printStudents();
     }
 
 }
