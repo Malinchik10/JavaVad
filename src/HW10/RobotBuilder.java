@@ -18,7 +18,7 @@ public class RobotBuilder extends Robot implements IEngineerRobot{
     @Override
     public void repair() {
         this.status = EStatus.Work;
-    }
+    } //
 
     @Override
     public void exchangeMainAggregate(Aggregate aggregate) {

@@ -1,6 +1,5 @@
 package HW10;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ShowRoom {
@@ -21,11 +20,15 @@ public class ShowRoom {
         }
     }
 
-    public void print()
+    public void printPossibility()
     {
+        System.out.println(name + " представляет роботов:");
+        int index = 1;
         for (IRobot robot : robots)
         {
-            System.out.println("Робот умеет: " + robot.uniquePossibility());
+            System.out.println("Робот " + index++ + " умеет: " + robot.uniquePossibility());
         }
+
+        System.out.println();
     }
 }
