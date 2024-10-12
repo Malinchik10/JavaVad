@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1aa4a4d-d734-4faa-ba04-e108c5d7a46c" name="Changes" comment="ДЗ Выставка роботов">
+      <change afterPath="$PROJECT_DIR$/src/HW12/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW12/FacultyStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW12/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW12/MainCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW12/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW10/MainRobots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW10/MainRobots.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW10/ShowRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW10/ShowRoom.java" afterDir="false" />
@@ -17,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -58,13 +63,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainRobots">
-    <configuration name="AnimalsSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW8.AnimalsSample" />
+  <component name="RunManager" selected="Application.MainCollections">
+    <configuration name="GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW11.GenericMain" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW8.*" />
+          <option name="PATTERN" value="HW11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW11.GenericMain" />
+    <configuration name="MainCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW12.MainCollections" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW11.*" />
+          <option name="PATTERN" value="HW12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainCollections" />
         <item itemvalue="Application.MainRobots" />
         <item itemvalue="Application.StaticMain" />
         <item itemvalue="Application.GenericMain" />
         <item itemvalue="Application.StudentSample" />
-        <item itemvalue="Application.AnimalsSample" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728733594826</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ДЗ Выставка роботов">
+      <option name="closed" value="true" />
+      <created>1728735489136</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728735489136</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

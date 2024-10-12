@@ -9,19 +9,19 @@ public class MainRobots {
         ShowRoom presentation = new ShowRoom();
 
         List<IRobot> box = createCollectionOfAllRobots();
-        presentation.addExposition("Выставка всех роботов", box);
+        presentation.addExposition("все роботы", box);
         presentation.init();
         presentation.printPossibility();
         presentation.clean();
 
         List<IRobot> boxOfEng = createCollectionOfEngeneringRobots();
-        presentation.addExposition("Выставка инженеров", boxOfEng);
+        presentation.addExposition("инженеры", boxOfEng);
         presentation.init();
         presentation.printPossibility();
         presentation.clean();
 
         List<IRobot> boxOfSappers = createCollectionOfSapperRobots();
-        presentation.addExposition("Выставка саперов", boxOfSappers);
+        presentation.addExposition("саперы", boxOfSappers);
         presentation.init();
         presentation.printPossibility();
         presentation.clean();
