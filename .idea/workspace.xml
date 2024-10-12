@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1aa4a4d-d734-4faa-ba04-e108c5d7a46c" name="Changes" comment="ДЗ">
-      <change afterPath="$PROJECT_DIR$/src/HW10/MainRobots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StaticExample/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StaticExample/StaticMain.java" afterDir="false" />
+    <list default="true" id="d1aa4a4d-d734-4faa-ba04-e108c5d7a46c" name="Changes" comment="ДЗ Выставка роботов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW10/RobotBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW10/RobotBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW10/RobotSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW10/MainRobots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW10/MainRobots.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW10/ShowRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW10/ShowRoom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,14 +207,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728593477150</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ДЗ Выставка роботов">
+      <option name="closed" value="true" />
+      <created>1728733594826</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728733594826</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Реализован класс студент" />
     <MESSAGE value="Правки класса студент" />
     <MESSAGE value="ДЗ" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ" />
+    <MESSAGE value="ДЗ Выставка роботов" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ Выставка роботов" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

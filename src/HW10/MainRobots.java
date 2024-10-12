@@ -6,20 +6,26 @@ import java.util.List;
 public class MainRobots {
     public static void main(String[] args)
     {
+        ShowRoom presentation = new ShowRoom();
+
         List<IRobot> box = createCollectionOfAllRobots();
-        ShowRoom presentation = new ShowRoom("Выставка всех роботов", box);
+        presentation.addExposition("Выставка всех роботов", box);
         presentation.init();
         presentation.printPossibility();
+        presentation.clean();
 
         List<IRobot> boxOfEng = createCollectionOfEngeneringRobots();
-        ShowRoom presentation2 = new ShowRoom("Выставка инженеров", boxOfEng);
-        presentation2.init();
-        presentation2.printPossibility();
+        presentation.addExposition("Выставка инженеров", boxOfEng);
+        presentation.init();
+        presentation.printPossibility();
+        presentation.clean();
 
-        List<IRobot> boxOfSappers = createCollectionOfEngeneringRobots();
-        ShowRoom presentation3 = new ShowRoom("Выставка саперов", boxOfSappers);
-        presentation2.init();
-        presentation2.printPossibility();
+        List<IRobot> boxOfSappers = createCollectionOfSapperRobots();
+        presentation.addExposition("Выставка саперов", boxOfSappers);
+        presentation.init();
+        presentation.printPossibility();
+        presentation.clean();
+
     }
 
     private static List<IRobot> createCollectionOfAllRobots()//return box

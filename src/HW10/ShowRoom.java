@@ -6,10 +6,8 @@ public class ShowRoom {
     private List<IRobot> robots;
     private String name;
 
-    public ShowRoom(String name, List<IRobot> robots)
+    public ShowRoom()
     {
-        this.robots = robots;
-        this.name = name;
     }
 
     public void init()
@@ -30,5 +28,17 @@ public class ShowRoom {
         }
 
         System.out.println();
+    }
+
+    public void clean()
+    {
+        robots.clear();
+        this.name = null;
+    }
+
+    public void addExposition(String expositionName, List<IRobot> robots)
+    {
+        this.name = expositionName;
+        this.robots.addAll(robots);
     }
 }
