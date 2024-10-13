@@ -35,7 +35,9 @@ public class MainCollections {
         faculty.deactivate();
         faculty.print();*/
 
-        faculty.printStudents();
+        faculty.print();
+        faculty.checkAndMoveStudentsFromSmallGroup(102, 101, 2);
+        faculty.print();
     }
 
 }

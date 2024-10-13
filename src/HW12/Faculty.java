@@ -1,9 +1,6 @@
 package HW12;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class Faculty {
     private static final int  minFacultySize = 20;
@@ -50,6 +47,35 @@ public class Faculty {
         }
 
         return acc;
+    }
+
+
+    public void checkAndMoveStudentsFromSmallGroup(int destGroupNumber, int checkingGroupNumber, int minGroupSize)
+    {
+        Optional<Group> checkingGroup = groups.stream().filter(p -> p.getNumber() == checkingGroupNumber).findFirst();
+        if(checkingGroup.isEmpty())
+        {
+            System.out.println("Группа не найдена");
+
+            return;
+        }
+
+        if(checkingGroup.get().groupSize() >= minGroupSize)
+        {
+            System.out.println(String.format("Размер группы %s больше %n", checkingGroup.get().getNumber(), minGroupSize));
+
+            return;
+        }
+
+        Optional<Group> destGroup = groups.stream().filter(p -> p.getNumber() == destGroupNumber).findFirst();
+        if(destGroup.isEmpty())
+        {
+            System.out.println("Группа не найдена");
+
+            return;
+        }
+
+        checkingGroup.get().moveStudents(destGroup.get());
     }
 
     public void print()

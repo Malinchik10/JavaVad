@@ -1,5 +1,6 @@
 package HW12;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
@@ -8,12 +9,17 @@ public class Group {
         return students;
     }
 
-    private List<Student> students;
+    private ArrayList<Student> students;
+
+    public int getNumber() {
+        return number;
+    }
+
     private int number;
 
     public Group(List<Student> students, int groupNumber)
     {
-        this.students = students;
+        this.students = new ArrayList(students);
         this.number = groupNumber;
     }
 
@@ -21,7 +27,8 @@ public class Group {
     {
         if(this.students != null)
         {
-            this.students = students.stream().filter(p -> p.getAvgScore() >= minAvg).toList();//p - элемент коллекции
+            List<Student> goodStudents = students.stream().filter(p -> p.getAvgScore() >= minAvg).toList();
+            this.students = new ArrayList<>(goodStudents); //p - элемент коллекции
         }
     }
 
@@ -54,5 +61,17 @@ public class Group {
         {
             st.print();
         }
+    }
+
+    public void moveStudents(Group destantionGroup)//назначения=id группы
+    {
+        destantionGroup.addStudents(this.students);
+
+        students = new ArrayList<>();
+    }
+
+    public void addStudents(List<Student> students)
+    {
+        this.students.addAll(students);
     }
 }
