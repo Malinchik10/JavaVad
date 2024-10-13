@@ -29,4 +29,7 @@ bin/
 .DS_Store
 
 ### IDE IDEA
+*/.idea/**
 .idea
+/.idea1/vcs.xml
+/.idea1/workspace.xml
