@@ -23,11 +23,11 @@ public class Group {
         this.number = groupNumber;
     }
 
-    public void revokeStudents(Double minAvg)
+    public void revokeStudents(Double minAvg)//ниже цифры балла искл. из группы - за студентов
     {
         if(this.students != null)
         {
-            List<Student> goodStudents = students.stream().filter(p -> p.getAvgScore() >= minAvg).toList();
+            List<Student> goodStudents = students.stream().filter(p -> p.getAvgScore() >= minAvg).toList();//ср.балл ст.
             this.students = new ArrayList<>(goodStudents); //p - элемент коллекции
         }
     }
@@ -44,12 +44,12 @@ public class Group {
             return 0;
         }
 
-        double acc = 0;
-        for (Student student : students) {
-            acc += student.getAvgScore();
+        double acc = 0; //ср.балл по группе
+        for (Student student : students) {//for each
+            acc += student.getAvgScore(); //
         }
 
-        return acc / students.size();
+        return acc / students.size(); //суммируем средний бал всех студентов и делим на количество - считаем средний балл
     }
 
     public void print()
@@ -57,7 +57,7 @@ public class Group {
         System.out.println("\tГруппа: " + number);
         System.out.println("\tСтуденты: ");
 
-        for (Student st : students.stream().sorted(Comparator.comparingDouble(p -> p.getAvgScore())).toList())
+        for (Student st : students.stream().sorted(Comparator.comparingDouble(p -> p.getAvgScore())).toList())//сортируем студентов по баллу
         {
             st.print();
         }
@@ -70,7 +70,7 @@ public class Group {
         students = new ArrayList<>();
     }
 
-    public void addStudents(List<Student> students)
+    public void addStudents(List<Student> students)//добавить студента в группу
     {
         this.students.addAll(students);
     }

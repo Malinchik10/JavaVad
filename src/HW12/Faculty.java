@@ -3,7 +3,7 @@ package HW12;
 import java.util.*;
 
 public class Faculty {
-    private static final int  minFacultySize = 20;
+    private static final int  minFacultySize = 20;//константа статик финал
     private List<Group> groups;
     private String name;
     private FacultyStatus status;
@@ -14,7 +14,7 @@ public class Faculty {
         this.name = name;
         if(facultySize() < minFacultySize)
         {
-            this.status = FacultyStatus.Deactivated;
+            this.status = FacultyStatus.Deactivated;//работает энам класс
         }
         else
         {
@@ -22,10 +22,10 @@ public class Faculty {
         }
     }
 
-    public void revokeStudents(Double minAvg)
+    public void revokeStudents(Double minAvg)//отчисляет всех студентов ниже указанного балла -minAvg ниже цифры балла искл. из группы
     {
         for (Group group : groups) {
-            group.revokeStudents(minAvg);
+            group.revokeStudents(minAvg);//в каждой группе вызываем метод, который отчисляет студентов - за отчисление
         }
     }
 
@@ -53,7 +53,7 @@ public class Faculty {
     public void checkAndMoveStudentsFromSmallGroup(int destGroupNumber, int checkingGroupNumber, int minGroupSize)
     {
         Optional<Group> checkingGroup = groups.stream().filter(p -> p.getNumber() == checkingGroupNumber).findFirst();
-        if(checkingGroup.isEmpty())
+        if(checkingGroup.isEmpty())//или результат или пустоту
         {
             System.out.println("Группа не найдена");
 
@@ -75,7 +75,7 @@ public class Faculty {
             return;
         }
 
-        checkingGroup.get().moveStudents(destGroup.get());
+        checkingGroup.get().moveStudents(destGroup.get());//первая часть откуда метод -нашел группу объект- у объета вызывает метод, вторая часть куда перевести
     }
 
     public void print()
@@ -87,15 +87,15 @@ public class Faculty {
         }
     }
 
-    public void printStudents()
+    public void printStudents()//сортировка по среднему баллу
     {
-        List<Student> acc = new ArrayList<>();
+        List<Student> allStudents = new ArrayList<>();
         for (Group group : groups) {
-            acc.addAll(group.getStudents());
+            allStudents.addAll(group.getStudents());//all Students контейнер
         }
 
-        for (Student student : acc.stream().sorted(Comparator.comparingDouble(p -> p.getAvgScore())).toList()) {
-            student.print();
+        for (Student student : allStudents.stream().sorted(Comparator.comparingDouble(p -> p.getAvgScore())).toList()) {
+            student.print();// у каждого студента вызовется принт
         }
     }
 }
