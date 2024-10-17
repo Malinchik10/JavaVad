@@ -1,13 +1,13 @@
-package StaticExample;
+package StaticExample;//через точку можно обращаться к любому полю. Методу и классу, если это все public - по имени экзмпляра переменной. Static  - обращаемся по имени класс через .
 
 public class StaticMain {
     public static void main(String[] args)
     {
         Example exm = new Example(10); //оъект
-        exm.test = 555555;
+        exm.test = 555555; //все , что public
         exm.printInstance();
 
-        Example.test2 = 12; //класс
+        Example.test2 = 12; //для статического класса точка
         Example.printStatic();
 
         test();
