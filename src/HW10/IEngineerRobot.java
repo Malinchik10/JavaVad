@@ -1,5 +1,9 @@
 package HW10;
 
 public interface IEngineerRobot extends IRobot{
-    abstract void solveTask();
+    void solveTask();
+
+    default void hhhh(){
+        System.out.println();
+    }
 }

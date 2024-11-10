@@ -31,7 +31,8 @@ public class MainRobots {
     private static List<IRobot> createCollectionOfAllRobots()//return box
     {
         IRobot cook = new RobotCook("Повар", 1000, "Kongo", new Aggregate("Печь"));
-        IRobot sapper = new RobotSapper("Сапер",1000, new Aggregate("Металлоискатель"), "Сталь");
+        RobotSapper sapper = new RobotSapper("Сапер",1000, new Aggregate("Металлоискатель"), "Сталь");
+        sapper.saper();
         IRobot sapper2 = new RobotSapper("Сапер2",1200, new Aggregate("Металлоискатель"), "Сталь");
         IRobot builder = new RobotBuilder("Строитель", 1500, "Italy", new Aggregate("Кузов"), "Титан");
 
@@ -50,7 +51,9 @@ public class MainRobots {
         IEngineerRobot sapper2 = new RobotSapper("Сапер2",1200, new Aggregate("Металлоискатель"), "Сталь");
         IEngineerRobot builder = new RobotBuilder("Строитель", 1500, "Italy", new Aggregate("Кузов"), "Титан");
 
-        List<IRobot> box = new ArrayList<IRobot>();
+        EStatus.NotCreated.setSecond("kshkjhkj");
+        sapper.hhhh();
+        List<IRobot> box = new ArrayList<>();
         box.add(sapper);
         box.add(sapper2);
         box.add(builder);
@@ -63,7 +66,7 @@ public class MainRobots {
         RobotSapper sapper2 = new RobotSapper("Сапер2",1200, new Aggregate("Металлоискатель"), "Сталь");
         RobotSapper sapper3 = new RobotSapper("Сапер3",1000, new Aggregate("Щуп"), "Сталь");
 
-        List<IRobot> box = new ArrayList<IRobot>();
+        List<IRobot> box = new ArrayList<>();
         box.add(sapper);
         box.add(sapper2);
         box.add(sapper3);

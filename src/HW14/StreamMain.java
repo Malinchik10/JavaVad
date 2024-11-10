@@ -7,29 +7,46 @@ import java.nio.file.Path;
 import java.util.Base64;
 
 public class StreamMain{
-    public static void main(String[] args) throws IOException, ClassNotFoundException {
-        String relativeFilePath = "relative-path.txt";
-        createFileByPath(relativeFilePath, Constants.Text);
-        String relativeFile = readFileByPath(relativeFilePath);
-        System.out.println("Relative file content: " + relativeFile.substring(0, 25));
+    public static void main(String[] args)  {
+        try{
+            String relativeFilePath = "relative-path.txt";
+            createFileByPath(relativeFilePath, Constants.Text);
+            String relativeFile = readFileByPath(relativeFilePath);
+            System.out.println("Relative file content: " + relativeFile.substring(0, 25));
 
-        String absoluteFilePath = "C:\\Java\\homework\\absolute-path.txt";
-        createFileByPath(absoluteFilePath, Constants.Text);
-        String absoluteFile = readFileByPath(absoluteFilePath);
-        System.out.println("Absolute file path: " + absoluteFile.substring(0, 25));
+            String absoluteFilePath = "C:\\Java\\homework\\absolute-path.txt";
+            createFileByPath(absoluteFilePath, Constants.Text);
+            String absoluteFile = readFileByPath(absoluteFilePath);
+            System.out.println("Absolute file path: " + absoluteFile.substring(0, 25));
 
-        Car car = new Car("Niva", 180);
-        String serializedString = serializeObject(car);
-        System.out.println("Car:\n" + serializedString);
+            Car car = new Car("Niva", 180);
+            String serializedString = serializeObject(car);
+            System.out.println("Car:\n" + serializedString);
 
-        Car deserializedCar = deserializeObject(serializedString);
-        System.out.println("Car object: " + deserializedCar);
+            Car deserializedCar = deserializeObject(serializedString);
+            System.out.println("Car object: " + deserializedCar);
+        }
+        catch (IOException e){
+            System.out.println();
+
+//            throw new RuntimeException(e.getMessage());
+        }
+        catch (ClassNotFoundException e){
+            throw new RuntimeException();
+        }
+
     }
 
-    public static void createFileByPath(String path, String content) throws IOException {
-        FileWriter fileWriter = new FileWriter(path);//class,type
-        fileWriter.write(content);//у этого экземпляра вызвали write;
-        fileWriter.close();
+    public static void createFileByPath(String path, String content) {
+        try{
+            FileWriter fileWriter = new FileWriter(path);//class,type
+            fileWriter.write(content);//у этого экземпляра вызвали write;
+            fileWriter.close();
+        }catch (IOException e){
+            System.out.println();
+            throw new RuntimeException("jgjgjgjgjgj");
+        }
+
     }
 
     public static String readFileByPath(String path) throws IOException {//путь к файлу

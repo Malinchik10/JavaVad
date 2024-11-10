@@ -1,40 +1,42 @@
 package HW10;
 
-public class RobotCook extends Robot implements IRobot{
-
+public class RobotCook implements IRobot {
+    EStatus status;
+    String model;
+    int power;
+    Aggregate aggregate;
+    String madeIn;
+    boolean isOn;
 
     public RobotCook(String model, int power, String madeIn, Aggregate aggregate)
     {
-        super(model, power, madeIn, aggregate);
+        this.model = model;
+        this.power = power;
+        this.madeIn = madeIn;
+        this.aggregate = aggregate;
     }
 
-    @Override
     public void create() {
         this.status = EStatus.Work;
         System.out.println(String.format("Robot '%s' created!", model));
     }
 
-    @Override
     public void repair() {
         this.status = EStatus.Work;
     }
 
-    @Override
     public void exchangeMainAggregate(Aggregate aggregate) {
-        exchangeAggregate(aggregate);
+        this.aggregate = aggregate;
     }
 
-    @Override
     public void on() {
         this.isOn = true;
     }
 
-    @Override
     public void off() {
         this.isOn = false;
     }
 
-    @Override
     public String uniquePossibility() {
         return "Готовка";
     }
